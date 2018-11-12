@@ -151,7 +151,7 @@ createReviewHTML = (review) => {
   const li = document.createElement('li');
   const reviewHeader = document.createElement('div');
   reviewHeader.classList.add('review-header');
-  const name = document.createElement('p');
+  const name = document.createElement('h3');
   name.innerHTML = review.name;
   name.classList.add('name');
   reviewHeader.appendChild(name);

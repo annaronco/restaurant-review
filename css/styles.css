@@ -35,7 +35,6 @@ a img{
 
 h1, h2, h3, h4, h5, h6 {
   font-family: Arial, Helvetica, sans-serif;
-  margin: 0 0 20px;
 }
 
 article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
@@ -130,7 +129,6 @@ nav h1 a {
   font-size: 1rem;
   font-weight: normal;
   line-height: 1;
-  margin: 0 20px;
 }
 
 .filter-options select {
@@ -171,7 +169,7 @@ nav h1 a {
   width: 100%;
 }
 
-#restaurants-list li h1 {
+#restaurants-list li h3 {
   color: #f18200;
   font-family: Arial,sans-serif;
   font-size: 14pt;
